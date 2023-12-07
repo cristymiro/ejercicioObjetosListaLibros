@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "titulo": "Eloquent JavaScript",
+      "autor": "Marijn Haverbeke",
+      "leido": false
+    },
+    {
+      "id": 2,
+      "titulo": "You Don't Know JS",
+      "autor": "Kyle Simpson",
+      "leido": false
+    },
+    {
+      "id": 3,
+      "titulo": "JavaScript: The Good Parts",
+      "autor": "Douglas Crockford",
+      "leido": false
+    }
+  ]
+  

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a6e9efc9;
+}
+  
+#app {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#controles {
+    margin-bottom: 10px;
+}
+
+input {
+    height: 25px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leido {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+#jsonContainer {
+    margin-top: 20px;
+}
+
+#jsonLibros {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}

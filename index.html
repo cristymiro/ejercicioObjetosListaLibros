@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Libros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Lista de Libros</h1>
+        <div id="controles">
+            <input type="text" id="tituloLibro" placeholder="Título del Libro">
+            <input type="text" id="autorLibro" placeholder="Autor del Libro">
+            <button onclick="agregarLibro()">Agregar Libro</button>
+            <button onclick="consultarLibros()">Consultar Libros</button>
+        </div>
+    
+        <ul id="listaLibros">
+            <!-- La lista de libros se generará aquí -->
+        </ul>
+        <div id="jsonContainer">
+            <h2>JSON de Libros</h2>
+            <pre id="jsonLibros"></pre>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
